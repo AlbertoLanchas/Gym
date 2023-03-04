@@ -1,0 +1,31 @@
+.goals {
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+.goals__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.goals__item {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.goals__item-image {
+  width: 4rem;
+  max-width: 10rem;
+  height: auto;
+  display: block;
+}

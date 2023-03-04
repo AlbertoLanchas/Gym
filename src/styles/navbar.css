@@ -1,0 +1,51 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__link {
+  color: white;
+  padding: 0 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar__link:hover {
+  color: #ff6d00;
+}
+
+.navbar__button {
+  margin-left: auto; /* Este valor de margin hará que el botón esté a la derecha */
+  background-color: #0b090982;
+  color: #dfa762c7;
+  border: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar__button:hover {
+  background-color: #ff8f00; /* Este es un tono más claro de naranja, puedes ajustar el valor si lo deseas */
+  color: #000000;
+  /* transition: color 0.1s ease-in-out; */
+}

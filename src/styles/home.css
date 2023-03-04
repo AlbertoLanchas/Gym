@@ -1,0 +1,47 @@
+.home {
+  position: relative;
+}
+
+.home__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.home__content {
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  margin-right: 2em;
+  float: right;
+  text-align: justify;
+}
+
+.home__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home__button {
+  max-width: 35%;
+  background-color: rgb(252, 234, 97);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  color: black;
+}
+
+.home__button:hover {
+  background-color: #ff6600;
+}
